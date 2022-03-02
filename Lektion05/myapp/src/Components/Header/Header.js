@@ -4,11 +4,14 @@ import {Link, useNavigate} from "react-router-dom"
 function Header() {
     return (
         <div class="header">
+            <Link to ={"/"}>
+                <img class="home_logo" src="/myapp/public/25694.png" alt=""></img>
+            </Link>
             <Link to={"/login"}>
-                <button>Login</button>
+                <button>login</button>
             </Link>
             <Link to={"/signup"}>
-                <button>Signup</button>
+                <button>signup</button>
             </Link>
         </div>
     );

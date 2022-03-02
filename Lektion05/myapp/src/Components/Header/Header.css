@@ -4,3 +4,11 @@
     padding: 20px;
     background-color: palevioletred;
 }
+
+.home_logo {
+    display: flex;
+    justify-content: left;
+    size: 20px;
+    padding: 20px;
+    background-color: aqua;
+}

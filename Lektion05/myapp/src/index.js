@@ -10,6 +10,7 @@ import Footer from "./Components/Footer/Footer"
 import Website from "./Components/Website/Website"
 import Login from "./Components/Header/Login/Login"
 import Signup from "./Components/Header/Signup/Signup"
+import LoggedIn from "./Components/Header/Login/LoggedIn"
 
 ReactDOM.render(
   <React.StrictMode>
@@ -20,6 +21,7 @@ ReactDOM.render(
           <Route path="/" element={<Website></Website>}></Route>
           <Route path="/login" element={<Login></Login>}></Route>
           <Route path="/signup" element={<Signup></Signup>}></Route>
+          <Route path="/loggedin" element={<LoggedIn></LoggedIn>}></Route>
         </Routes>
       </BrowserRouter>
   </React.StrictMode>,
